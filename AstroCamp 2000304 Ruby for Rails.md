@@ -60,9 +60,10 @@ hi
 ```
 
 ### REPL Read-Eval-Print-Loop
-Read | Eval | Print | Loop
----|—--|—--|—--
-讀取 | 評估 | 印出 | 無窮迴圈
+| Read | Eval | Print | Loop |
+| --- | —-- | —-- | —-- |
+| 讀取 | 評估 | 印出 | 無窮迴圈 |
+
 
 	* irb為一種 REPL的環境
 
@@ -95,10 +96,10 @@ not useful
 * 變數使用前要先定義喔，但不用先宣告，也不用決定型態
 
 
-種類 | 區域變數 | 全域變數 | 實體變數 | 類別變數
-—--|—--|—--|—--|—--
-命名樣式 | username | $username |  @username | @@username
- | | 少用，易出錯| | | 
+| 種類 | 區域變數 | 全域變數 | 實體變數 | 類別變數 | 
+| —-- | —-- | —-- | —-- | —-- |
+| 命名樣式 | username | $username |  @username | @@username |
+|  |  | 少用，易出錯 |  |  | 
 
 ```
 a = a + 1
