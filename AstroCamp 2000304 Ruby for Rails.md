@@ -1,5 +1,5 @@
 # AstroCamp 2000304 Ruby for Rails
-#AstroCamp
+
 
 
 ### Ruby is an interesting programming language
@@ -61,7 +61,7 @@ hi
 
 ### REPL Read-Eval-Print-Loop
 Read | Eval | Print | Loop
-—|—|—|—
+---|—--|—--|—--
 讀取 | 評估 | 印出 | 無窮迴圈
 
 	* irb為一種 REPL的環境
@@ -96,7 +96,7 @@ not useful
 
 
 種類 | 區域變數 | 全域變數 | 實體變數 | 類別變數
-—|—|—|—|—
+—--|—--|—--|—--|—--
 命名樣式 | username | $username |  @username | @@username
  | | 少用，易出錯| | | 
 
@@ -107,8 +107,8 @@ a += 2 // a = a + 2
 =代表指定
 
 ```
-c = c || 10	#如果c有內容我就給你c，如果沒有就給你10
-				#有點像預設值的概念
+c = c || 10		#如果c有內容我就給你c，如果沒有就給你10
+			#有點像預設值的概念
 puts c	#output 10
 c ||= 20
 puts c	#output 10
@@ -161,8 +161,7 @@ name = “godzi”
 age = 23
 puts “hi, I am #{name}, and I am #{age} years old”
 	#雙引號可以翻譯#{ }
-puts ‘hi, I am #{name}’
-	#單引號無法做字串串接/翻譯變數，但效率較快
+puts ‘hi, I am #{name}’			#單引號無法做字串串接/翻譯變數，但效率較快
 ```
 * 引號被亂用？？
 `puts’ hi, I\’m aaa’`
@@ -204,7 +203,7 @@ aaa
 > print “aaa”		#沒有回傳值，沒有換行
 aaa => nil 
 
-> p “aaa”			#有回傳值，有換行，還可以看出結構
+> p “aaa”		#有回傳值，有換行，還可以看出結構
 “aaa”
  => “aaa” 
 ```
@@ -212,10 +211,10 @@ aaa => nil
 > 1 + 2
  => 3 		#這個3是irb幫忙印出來的 （回傳值）
 > puts 1 + 2
-3				#這個3是puts幫忙印出來的
- => nil 		#這個nil是irb幫忙印出來的 （回傳值）
+3		#這個3是puts幫忙印出來的
+ => nil 	#這個nil是irb幫忙印出來的 （回傳值）
 > p 1 + 2
-3				#這個3是p幫忙印出來的
+3		#這個3是p幫忙印出來的
  => 3 		#這個3是irb幫忙印出來的 （回傳值）
 
 ```
@@ -316,7 +315,7 @@ end
 def bmi_calculator(height, weight)
 	begin
 		weight / (height * height)
-	rescue									#防呆機制
+	rescue					#防呆機制
 		wrong
 	end
 end
@@ -343,7 +342,7 @@ def method_name(param1, param2)		#定義的時候叫參數
 #…
 end
 
-method_name(argu1, argu2)			#要用的時候是引數
+method_name(argu1, argu2)		#要用的時候是引數
 ```
 參數與引數 parameter and argument
 * 方法中的小括號可以被“適當的”省略 `say_hello_to '孫悟空'`
@@ -357,13 +356,13 @@ def age
 	return 20
 end
 
-puts age			#ruby會’變數優先’而非方法
+puts age		#ruby會’變數優先’而非方法
 puts age()		#印出方法
 ```
 ```
-def age 			#空方法
+def age 		#空方法
 end				
-					#回傳值為nil
+			#回傳值為nil
 ```
 ```
 def calc_perimeter(radius)
@@ -376,7 +375,7 @@ puts calc_perimeter(5)
 
 ```
 def f2c(f)
-	(f-32)*5.0/9		#只要除數被除數任一個是小數結果就為小數
+	(f-32)*5.0/9	#只要除數被除數任一個是小數結果就為小數
 end
 
 puts f2c(140)
