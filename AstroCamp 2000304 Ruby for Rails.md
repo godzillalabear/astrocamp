@@ -61,7 +61,7 @@ hi
 
 ### REPL Read-Eval-Print-Loop
 | Read | Eval | Print | Loop |
-| --- | —-- | —-- | —-- |
+| --- | --- | --- | --- |
 | 讀取 | 評估 | 印出 | 無窮迴圈 |
 
 
@@ -97,7 +97,7 @@ not useful
 
 
 | 種類 | 區域變數 | 全域變數 | 實體變數 | 類別變數 | 
-| —-- | —-- | —-- | —-- | —-- |
+| --- | --- | --- | --- | --- |
 | 命名樣式 | username | $username |  @username | @@username |
 |  |  | 少用，易出錯 |  |  | 
 
