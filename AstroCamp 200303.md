@@ -164,9 +164,9 @@ drwxr-xr-x  13 godzillalabear  staff  416  3  3 12:16 .git
 r read 可讀取 w write 可寫入 x excution 可執行
 drwxr-xr-x -> 表示檔案的權限
 
-d|rwx| r-x | r-x |
----|---|---|---|
-|     |user   | group      |   others    |
+| d | rwx | r-x | r-x |
+|---|---|---|---|
+|     | user   | group      |   others    |
 	
 `chmod 700 index.html`可以改變檔案權限
 ```
