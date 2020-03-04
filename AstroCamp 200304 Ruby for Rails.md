@@ -1,4 +1,4 @@
-# AstroCamp 2000304 Ruby for Rails
+# AstroCamp 200304 Ruby for Rails
 
 
 
